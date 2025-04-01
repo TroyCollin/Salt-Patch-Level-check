@@ -1,4 +1,4 @@
-{% set target_kernel_version = "5.15.0-100-generic" %}
+{% set target_kernel_version = "5.15.167.4-microsoft-standard-WSL2" %}
 {% set current_kernel = salt['cmd.run']('uname -r') %}
 
 check_kernel:
