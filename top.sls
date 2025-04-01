@@ -1,0 +1,3 @@
+base:
+  '*':
+    - kernel_check
