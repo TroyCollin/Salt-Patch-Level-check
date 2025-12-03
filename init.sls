@@ -1,4 +1,4 @@
-{% set target_kernel_version = "5.15.167.4-microsoft-standard-WSL2" %}
+{% set target_kernel_version = "6.6.87.2-microsoft-standard-WSL2" %}
 {% set current_kernel = grains['kernelrelease'] %}
 
 check_kernel:
